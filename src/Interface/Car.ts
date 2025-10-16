@@ -9,3 +9,9 @@ export interface Car {
     dataDelivered: Date
     status: Boolean
 }
+
+export interface CreateCar {
+    chassi: String,
+    model: String,
+    observation: String,
+}
